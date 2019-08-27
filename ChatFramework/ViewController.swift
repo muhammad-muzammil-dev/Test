@@ -10,7 +10,7 @@ import UIKit
 
 open class MyFirstController: UIViewController {
 
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
     }
