@@ -10,7 +10,7 @@
 		1872414523158F2D00DFE149 /* ChatFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1872413B23158F2D00DFE149 /* ChatFramework.framework */; };
 		1872414A23158F2D00DFE149 /* ChatFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872414923158F2D00DFE149 /* ChatFrameworkTests.swift */; };
 		1872414C23158F2D00DFE149 /* ChatFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1872413E23158F2D00DFE149 /* ChatFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1872415623158F3D00DFE149 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872415523158F3D00DFE149 /* Home.storyboard */; };
+		1872415623158F3D00DFE149 /* TestingPurpose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872415523158F3D00DFE149 /* TestingPurpose.storyboard */; };
 		1872415A23158FA400DFE149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872415923158FA400DFE149 /* ViewController.swift */; };
 		51D83D5FA0295235750FE123 /* Pods_ChatFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB76C38216F8F6DC6A12BA3 /* Pods_ChatFramework.framework */; };
 		E3005B6D4DE4787C655A9142 /* Pods_ChatFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6558162366150E3F2865138F /* Pods_ChatFrameworkTests.framework */; };
@@ -55,7 +55,7 @@
 		1872414423158F2D00DFE149 /* ChatFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1872414923158F2D00DFE149 /* ChatFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFrameworkTests.swift; sourceTree = "<group>"; };
 		1872414B23158F2D00DFE149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1872415523158F3D00DFE149 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1872415523158F3D00DFE149 /* TestingPurpose.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestingPurpose.storyboard; sourceTree = "<group>"; };
 		1872415923158FA400DFE149 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		187241CF231591CC00DFE149 /* test.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = test.xcodeproj; path = test/test.xcodeproj; sourceTree = "<group>"; };
 		259C53C7317024BF71B7D4F3 /* Pods-ChatFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatFramework.debug.xcconfig"; path = "Target Support Files/Pods-ChatFramework/Pods-ChatFramework.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			children = (
 				1872413E23158F2D00DFE149 /* ChatFramework.h */,
 				1872413F23158F2D00DFE149 /* Info.plist */,
-				1872415523158F3D00DFE149 /* Home.storyboard */,
+				1872415523158F3D00DFE149 /* TestingPurpose.storyboard */,
 				1872415923158FA400DFE149 /* ViewController.swift */,
 			);
 			path = ChatFramework;
@@ -154,7 +154,6 @@
 				9312BA03810C6585CC72FC1A /* Pods-ChatFrameworkTests.debug.xcconfig */,
 				696388D4C8D8F65BEEBDDB49 /* Pods-ChatFrameworkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,7 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1872415623158F3D00DFE149 /* Home.storyboard in Resources */,
+				1872415623158F3D00DFE149 /* TestingPurpose.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
