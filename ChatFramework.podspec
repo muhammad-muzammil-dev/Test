@@ -17,6 +17,6 @@ This CocoaPods library helps you perform calculation.
 
   spec.source        = { :git => "https://github.com/muhammadmuzzamil/Test.git", :tag => "#{spec.version}" }
   spec.source_files  = "ChatFramework/**/*.{h,m,swift}"
-  spec.resource = ["Resources/**/*.storyboard"]
+  spec.resources = ["Resources/**/*.storyboard"]
 
 end
